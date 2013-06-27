@@ -1,5 +1,5 @@
 {
-  "name": "grunt-docco",
+  "name": "grunt-docco-loco",
   "description": "Docco is a quick-and-dirty documentation generator, written in Literate CoffeeScript.",
   "version": "0.0.1",
   "homepage": "https://github.com/abovethewater/grunt-docco",
