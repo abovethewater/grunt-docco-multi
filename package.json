@@ -1,0 +1,45 @@
+{
+  "name": "grunt-docco-multi",
+  "description": "Create a multi-docco that hotlink between all generated input files",
+  "version": "0.0.1",
+  "homepage": "http://abovethewater.github.io/grunt-docco-multi",
+  "author": {
+    "name": "Joe Mathews",
+    "email": "joe@abovethewater.co.uk"
+  },
+  "contributors": [
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/abovethewater/grunt-docco-multi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abovethewater/grunt-docco-multi/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://abovethewater.mit-license.org"
+    }
+  ],
+  "main": "grunt.js",
+  "engines": {
+    "node": "0.8.x"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4"
+  },
+  "dependencies": {
+    "docco": "~0.6"
+  },
+  "devDependencies": {
+    "grunt": "~0.4",
+    "grunt-cli": "~0.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
