@@ -1,3 +1,11 @@
+#
+# grunt-docco-multi
+# https://abovethewater.github.io/grunt-docc-multi
+#
+# Copyright (&copy;) 2013 Joe Mathews (abovethewater)
+# Licensed under the [MIT](http://abovethewater.mit-license.org) licence
+#
+
 # # grunt-docco-multi
 module.exports = (grunt) ->
 

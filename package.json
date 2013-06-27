@@ -2,7 +2,7 @@
   "name": "grunt-docco-multi",
   "description": "Create a multi-docco that hotlink between all generated input files",
   "version": "0.0.1",
-  "homepage": "https://github.com/abovethewater/grunt-docco-multi",
+  "homepage": "http://abovethewater.github.io/grunt-docco-multi",
   "author": {
     "name": "Joe Mathews",
     "email": "joe@abovethewater.co.uk"

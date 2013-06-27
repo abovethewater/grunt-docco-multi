@@ -56,7 +56,7 @@ Add this line to your project's Gruntfile:
 
 ### Options
 
-Standard `doco` options are supported
+Standard `docco` options are supported
 
     config:
         layout:     'parallel'
@@ -66,5 +66,5 @@ Standard `doco` options are supported
         extension:  null
 
 
-licensed under [MIT](http://abovethewater.mit-license.org)
+licensed under the [MIT](http://abovethewater.mit-license.org) licence
 (&copy;) 2013 abovethewater
