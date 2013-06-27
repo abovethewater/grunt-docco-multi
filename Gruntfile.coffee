@@ -1,4 +1,4 @@
-# # grunt-docco
+# # grunt-docco-multi
 module.exports = (grunt) ->
 
   grunt.initConfig

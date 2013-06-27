@@ -1,8 +1,8 @@
 {
-  "name": "grunt-docco-loco",
-  "description": "Docco is a quick-and-dirty documentation generator, written in Literate CoffeeScript.",
+  "name": "grunt-docco-multi",
+  "description": "Create a multi-docco that hotlink between all generated input files",
   "version": "0.0.1",
-  "homepage": "https://github.com/abovethewater/grunt-docco",
+  "homepage": "https://github.com/abovethewater/grunt-docco-multi",
   "author": {
     "name": "Joe Mathews",
     "email": "joe@abovethewater.co.uk"
@@ -11,10 +11,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/abovethewater/grunt-docco.git"
+    "url": "git://github.com/abovethewater/grunt-docco-multi.git"
   },
   "bugs": {
-    "url": "https://github.com/abovethewater/grunt-docco/issues"
+    "url": "https://github.com/abovethewater/grunt-docco-multi/issues"
   },
   "licenses": [
     {

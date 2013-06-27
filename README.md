@@ -1,17 +1,21 @@
-[![build status](https://secure.travis-ci.org/abovethewater/grunt-docco.png)](http://travis-ci.org/abovethewater/grunt-docco)
-# grunt-docco
+[![build status](https://secure.travis-ci.org/abovethewater/grunt-docco-multi.png)](http://travis-ci.org/abovethewater/grunt-docco-multi)
+# grunt-docco-multi
 
 **Grab your markdown comments in your CoffeeScript through [Docco](http://jashkenas.github.io/docco/).**
+
+Differs to grunt-docco in that all files are parsed as one, provide a nice jump-to menu in the output.
+
+This may be a feature in grunt-docco, but that didn't just work out the box
 
 ## Installation
 
 Install npm package, next to your project's Gruntfile:
 
-    npm install --save-dev grunt-docco
+    npm install --save-dev grunt-docco-multi
 
 Add this line to your project's Gruntfile:
 
-    grunt.loadNpmTasks('grunt-docco');
+    grunt.loadNpmTasks('grunt-docco-multi');
 
 
 ## Configuration
@@ -29,7 +33,6 @@ Add this line to your project's Gruntfile:
       options:
         layout : "parallel"
         output : "docs/"
-        timeout : 500
 
       # ## parse multiple files
       all:
@@ -62,12 +65,6 @@ Standard `doco` options are supported
         css:        null
         extension:  null
 
-With an additional parameter for the grunt async timeout
-
-This parameter is a quick and dirty workaround for the lack of a complete callback in docco itself.
-
-    config:
-        timeout:    500
 
 licensed under [MIT](http://abovethewater.mit-license.org)
 (&copy;) 2013 abovethewater
