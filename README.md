@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/abovethewater/grunt-docco.png)](http://travis-ci.org/abovethewater/grunt-docco)
 # grunt-docco
 
 **Grab your markdown comments in your CoffeeScript through [Docco](http://jashkenas.github.io/docco/).**
