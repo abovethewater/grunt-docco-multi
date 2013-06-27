@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="grunt-docco-multi : grunt Docco task" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>grunt-docco-multi</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/abovethewater/grunt-docco-multi">View on GitHub</a>
+
+          <h1 id="project_title">grunt-docco-multi</h1>
+          <h2 id="project_tagline">grunt Docco task</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/abovethewater/grunt-docco-multi/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/abovethewater/grunt-docco-multi/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p><a href="http://travis-ci.org/abovethewater/grunt-docco-multi"><img src="https://secure.travis-ci.org/abovethewater/grunt-docco-multi.png" alt="build status"></a></p>
+
+<h1>
+<a name="grunt-docco-multi" class="anchor" href="#grunt-docco-multi"><span class="octicon octicon-link"></span></a>grunt-docco-multi</h1>
+
+<p><strong>Grab your markdown comments in your CoffeeScript through <a href="http://jashkenas.github.io/docco/">Docco</a>.</strong></p>
+
+<p>Differs to grunt-docco in that all files are parsed as one, provide a nice jump-to menu in the output.</p>
+
+<p>This may be a feature in grunt-docco, but that didn't just work out the box</p>
+
+<h2>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<p>Install npm package, next to your project's Gruntfile:</p>
+
+<pre><code>npm install --save-dev grunt-docco-multi
+</code></pre>
+
+<p>Add this line to your project's Gruntfile:</p>
+
+<pre><code>grunt.loadNpmTasks('grunt-docco-multi');
+</code></pre>
+
+<h2>
+<a name="configuration" class="anchor" href="#configuration"><span class="octicon octicon-link"></span></a>Configuration</h2>
+
+<p><code>docco</code> is a multitask, so you can use it similary to <code>lint</code>, <code>watch</code> etc...</p>
+
+<p>grunt.initConfig</p>
+
+<pre><code>...
+
+docco:
+
+  # ## use current sane defaults
+  options:
+    layout : "parallel"
+    output : "docs/"
+
+  # ## parse multiple files
+  all:
+    files:
+      src: ['test/fixtures/*.coffee']
+
+  # ## parse a single file
+  single: ['test/fixtures/valid.litcoffee']
+
+  # ## parse this file with linear output
+  gruntfile:
+    options:
+      layout: "linear"
+    files:
+      src: 'Gruntfile.coffee'
+
+  # ## nothing to parse
+  empty: '404.coffee'
+
+...
+</code></pre>
+
+<h3>
+<a name="options" class="anchor" href="#options"><span class="octicon octicon-link"></span></a>Options</h3>
+
+<p>Standard <code>doco</code> options are supported</p>
+
+<pre><code>config:
+    layout:     'parallel'
+    output:     'docs/'
+    template:   null
+    css:        null
+    extension:  null
+</code></pre>
+
+<p>licensed under <a href="http://abovethewater.mit-license.org">MIT</a>
+(©) 2013 abovethewater</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">grunt-docco-multi maintained by <a href="https://github.com/abovethewater">abovethewater</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-42074273-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+
+  </body>
+</html>
