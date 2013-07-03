@@ -25,7 +25,9 @@ module.exports = (grunt) ->
           src: ['test/fixtures/*.coffee']
 
       # ## parse a single file
-      single: ['test/fixtures/valid.litcoffee']
+      single:
+        files:
+          src: ['test/fixtures/valid.litcoffee']
 
       # ## parse this file with linear output
       gruntfile:
@@ -33,6 +35,14 @@ module.exports = (grunt) ->
           layout: "linear"
         files:
           src: 'Gruntfile.coffee'
+
+      # ## parse everything with classic output
+      # ## parse multiple files
+      mulitplelinear:
+        options:
+          layout: "classic"
+        files:
+          src: ['test/fixtures/multiple//*.coffee']
 
       # ## nothing to parse
       empty: '404.coffee'

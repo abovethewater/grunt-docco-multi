@@ -40,7 +40,9 @@ Add this line to your project's Gruntfile:
           src: ['test/fixtures/*.coffee']
 
       # ## parse a single file
-      single: ['test/fixtures/valid.litcoffee']
+      single:
+        files:
+          src: ['test/fixtures/valid.litcoffee']
 
       # ## parse this file with linear output
       gruntfile:

@@ -33,7 +33,7 @@
     "grunt": "~0.4"
   },
   "dependencies": {
-    "docco": "~0.6"
+    "docco": "~0.6.2"
   },
   "devDependencies": {
     "grunt": "~0.4",

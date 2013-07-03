@@ -15,14 +15,14 @@ module.exports = (grunt) ->
       grunt.log.warn 'no files to docco.'
       return
 
-    options = this.options()
-    options.args = files
+    options = this.options({ args : files})
     timeout = options.timeout or 500
 
     # docco is async due to use of mkdir -p
     done = this.async()
 
-    docco.document options
+    docco.document options, () ->
+      grunt.log.ok "done"
 
     # todo having now looked at grunt-docco, that seems to work with a callback, but it just does not wash here
     setTimeout () ->
