@@ -18,6 +18,10 @@ Add this line to your project's Gruntfile:
     grunt.loadNpmTasks('grunt-docco-multi');
 
 
+## Version
+
+    "grunt-docco-multi" : "~0.0.2"
+
 ## Configuration
 
 `docco` is a multitask, so you can use it similary to `lint`, `watch` etc...
