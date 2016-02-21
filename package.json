@@ -18,7 +18,6 @@
   },
   "license": "MIT",
   "main": "grunt.js",
-  "engineStrict" : true,
   "engines": {
     "node": "0.12.x"
   },
