@@ -16,14 +16,8 @@
   "bugs": {
     "url": "https://github.com/abovethewater/grunt-docco-multi/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://abovethewater.mit-license.org"
-    }
-  ],
+  "license": "MIT",
   "main": "grunt.js",
-  "engineStrict" : true,
   "engines": {
     "node": "0.12.x"
   },
