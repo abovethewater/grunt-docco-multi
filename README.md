@@ -20,7 +20,7 @@ Add this line to your project's Gruntfile:
 
 ## Version
 
-    "grunt-docco-multi" : "~0.0.2"
+    "grunt-docco-multi" : "~0.0.4"
 
 ## Configuration
 
@@ -73,4 +73,4 @@ Standard `docco` options are supported
 
 
 licensed under the [MIT](http://abovethewater.mit-license.org) licence
-(&copy;) 2013 abovethewater
+(&copy;) 2016 abovethewater
